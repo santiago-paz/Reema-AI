@@ -1,0 +1,20 @@
+{
+  "name": "reema-ai",
+  "version": "0.0.1",
+  "description": "The backend server for Reema AI",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon --exec 'npm start'"
+  },
+  "author": "Santiago Paz",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "microsoft-cognitiveservices-speech-sdk": "^1.22.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.21.0",
+    "nodemon": "^2.0.19"
+  }
+}

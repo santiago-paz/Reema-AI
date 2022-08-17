@@ -1,0 +1,26 @@
+{
+  "name": "reema-ai",
+  "version": "0.0.1",
+  "description": "A voice software specialized in text-to-speech news articles.",
+  "main": "index.js",
+  "scripts": {
+    "backend": "cd ./backend && npm run dev",
+    "frontend": "cd ./frontend && npm run start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santiago-paz/Reema-AI.git"
+  },
+  "keywords": [
+    "voice",
+    "software",
+    "ai"
+  ],
+  "author": "Santiago Paz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/santiago-paz/Reema-AI/issues"
+  },
+  "homepage": "https://github.com/santiago-paz/Reema-AI#readme"
+}
